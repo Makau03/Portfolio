@@ -1,0 +1,128 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background-image: url( "file:///D:\pictures/My_portfolio1.jpg");
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 25%;
+    
+}
+.about{
+    background-color: grey;
+}
+.text-center{
+    text-align: center;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:pink;
+}
+a:active{
+    color:green;
+}
+a:open{
+    color:paleturquoise;
+}
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.card-title {
+    text-align: center;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-whatsapp:hover {
+    color: #008000;
+}
+.fa {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+/* spacing on all sections */
+#about, #services, #portfolio{
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+/*additional styling*/
+.myNav li {
+    float:right;
+}
+.myNav ul{
+    list-style: none;
+    padding-right: 0;
+    margin: 0;
+}
+.myNav li a{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+.myNav{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+
+}
+.container_services{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.card-body1{
+    float: left;
+    width: 50%;
+}
+.card-body2{
+    float: right;
+    width: 50%;
+}
+.card-body3{
+    float: left;
+    width: 50%;
+}
+.card-body4{
+    float: right;
+    width: 50%;
+}
